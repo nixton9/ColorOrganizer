@@ -1,5 +1,5 @@
 {
-  "main.css": "/ColorOrganizer/static/css/main.e1fba2d6.chunk.css",
+  "main.css": "/ColorOrganizer/static/css/main.595239d7.chunk.css",
   "main.js": "/ColorOrganizer/static/js/main.c4cbc5bc.chunk.js",
   "main.js.map": "/ColorOrganizer/static/js/main.c4cbc5bc.chunk.js.map",
   "runtime~main.js": "/ColorOrganizer/static/js/runtime~main.de266475.js",
@@ -7,8 +7,7 @@
   "static/js/2.1d5feb5a.chunk.js": "/ColorOrganizer/static/js/2.1d5feb5a.chunk.js",
   "static/js/2.1d5feb5a.chunk.js.map": "/ColorOrganizer/static/js/2.1d5feb5a.chunk.js.map",
   "index.html": "/ColorOrganizer/index.html",
-  "precache-manifest.eaef4569cdf75b929c299dab3026cd74.js": "/ColorOrganizer/precache-manifest.eaef4569cdf75b929c299dab3026cd74.js",
+  "precache-manifest.63b47f9e1a1e0a2fd795072f2d8fef80.js": "/ColorOrganizer/precache-manifest.63b47f9e1a1e0a2fd795072f2d8fef80.js",
   "service-worker.js": "/ColorOrganizer/service-worker.js",
-  "static/css/main.e1fba2d6.chunk.css.map": "/ColorOrganizer/static/css/main.e1fba2d6.chunk.css.map",
-  "static/media/index.css": "/ColorOrganizer/static/media/picker.a0b6d096.png"
+  "static/css/main.595239d7.chunk.css.map": "/ColorOrganizer/static/css/main.595239d7.chunk.css.map"
 }

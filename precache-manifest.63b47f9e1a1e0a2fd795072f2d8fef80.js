@@ -1,14 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "a0b6d0968c8ee3cbcb846dd24b9930c7",
-    "url": "/ColorOrganizer/static/media/picker.a0b6d096.png"
-  },
-  {
     "revision": "8e5b4a24ed398286359b",
     "url": "/ColorOrganizer/static/js/runtime~main.de266475.js"
   },
   {
-    "revision": "72932bbbf82435d4d0d1",
+    "revision": "6bdcc8a7c3d0cc0ab6c6",
     "url": "/ColorOrganizer/static/js/main.c4cbc5bc.chunk.js"
   },
   {
@@ -16,11 +12,11 @@ self.__precacheManifest = [
     "url": "/ColorOrganizer/static/js/2.1d5feb5a.chunk.js"
   },
   {
-    "revision": "72932bbbf82435d4d0d1",
-    "url": "/ColorOrganizer/static/css/main.e1fba2d6.chunk.css"
+    "revision": "6bdcc8a7c3d0cc0ab6c6",
+    "url": "/ColorOrganizer/static/css/main.595239d7.chunk.css"
   },
   {
-    "revision": "e11b4cd4a4f43c45efe8810a0da7ae7b",
+    "revision": "cafc2aa2a77971cea2eae0ff1f0b0eec",
     "url": "/ColorOrganizer/index.html"
   }
 ];
