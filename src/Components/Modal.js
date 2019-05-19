@@ -26,21 +26,26 @@ class Modal extends Component{
         return (
             <div className={this.props.className}>
                 <button className="close-modal" onClick={this.props.close}>&#215;</button>
-                <h4>Add a color to your list</h4>
-                <form onSubmit={this.addColor}>
-                    <input 
-                        type="text" 
-                        placeholder="Color name" 
-                        className="name-input" 
-                        ref={this.nameInput}
-                    />
-                    <input 
-                        type="color" 
-                        className="color-input"
-                        ref={this.colorInput}
-                    />
-                    <button className="btn btn-form">Add</button>
-                </form>
+                <div className="modal-content">
+                    <h4>Add a color to your list</h4>
+                    <form onSubmit={this.addColor}>
+                        <input 
+                            type="text" 
+                            placeholder="Color name" 
+                            className="name-input" 
+                            ref={this.nameInput}
+                        />
+                        <div className="colorinput-container" onClick={this.props.openColorInput}>
+                            <input 
+                                type="color" 
+                                className="color-input"
+                                ref={this.colorInput}
+                                id="colorinput"
+                            />
+                        </div>
+                        <button className="btn btn-form">Add</button>
+                    </form>
+                </div>
             </div>
         )
     }
@@ -50,5 +55,6 @@ class Modal extends Component{
 export default Modal
 
 Modal.propTypes = {
-    className: PropTypes.string.isRequired
+    className: PropTypes.string.isRequired,
+    openColorInput: PropTypes.func.isRequired
 }

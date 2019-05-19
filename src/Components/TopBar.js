@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import ModalToggler from './ModalToggler'
 
-export const TopBar = ({orderType, switchOrderType, changeSearchQuery, addColor}) => {
+export const TopBar = ({orderType, switchOrderType, changeSearchQuery, addColor, openColorInput}) => {
     var handleSearchEvent = (e) => {
         changeSearchQuery(e.target.value)
     }
@@ -12,7 +12,7 @@ export const TopBar = ({orderType, switchOrderType, changeSearchQuery, addColor}
     return (
         <div className="topbar">
             <div className="add-color">
-                <ModalToggler type="add" addColor={addColor}/>
+                <ModalToggler type="add" addColor={addColor} openColorInput={openColorInput}/>
             </div>
             <div className="search-bar">
                 <div className="searchbardiv"><input className="searchinput" type="text" onChange={handleSearchEvent} placeholder="Search"/></div>
@@ -32,6 +32,7 @@ TopBar.propTypes = {
     orderType: PropTypes.string,
     switchOrderType: PropTypes.func,
     changeSearchQuery: PropTypes.func,
-    addColor: PropTypes.func
+    addColor: PropTypes.func,
+    openColorInput: PropTypes.func
 }
 

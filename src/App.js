@@ -57,6 +57,11 @@ class App extends Component {
     document.getElementById('copy-textarea').removeChild(el);
   }
 
+  openColorInput = () => {
+      document.getElementById('colorinput').focus()
+      document.getElementById('colorinput').click()
+  }
+
   componentDidMount(){
     this.setupBeforeUnloadListener()
   }
@@ -88,6 +93,7 @@ class App extends Component {
           switchOrderType={this.switchOrderType}
           changeSearchQuery={this.changeSearchQuery}
           addColor={this.props.addColor}
+          openColorInput={this.openColorInput}
         />
         {this.props.isLoading ?
           <h4>Loading...</h4>

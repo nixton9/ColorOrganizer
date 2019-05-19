@@ -24,7 +24,7 @@ class ModalToggler extends Component{
         return (
             <>
                 <span onClick={this.toggle}>Add a Color</span>
-                <Modal className={modalClass} addColor={this.props.addColor} close={this.close}/>
+                <Modal className={modalClass} addColor={this.props.addColor} openColorInput={this.props.openColorInput} close={this.close}/>
             </>
             )
     }
@@ -34,5 +34,6 @@ export default ModalToggler
 
 ModalToggler.propTypes = {
     type: PropTypes.string,
-    addColor: PropTypes.func.isRequired
+    addColor: PropTypes.func.isRequired,
+    openColorInput: PropTypes.func.isRequired,
 }
